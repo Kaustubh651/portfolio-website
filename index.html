@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaustubh's Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/20fa359081.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/l2.png" class="logo">
+        <ul id="sidemenu">
+          <li> <a href="#header">Home</a> </li>
+          <li> <a href="#about">About</a> </li>
+          <li> <a href="#serivces">My Work</a> </li>
+          <li> <a href="#blog">Blog</a> </li>
+          <li> <a href="#portfolio">Project</a> </li>
+          <li> <a href="#contact">Contact</a> </li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Data Scientist /Analytic</p>
+        <h1>Hi, I am <span>Kasutubh</span> <br> Dwivedi from India</h1>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- -----------------------About---------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/k1.png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            "I'm a 21-year-old currently in my third year, pursuing a Computer Science degree at VIT Chennai. Born and raised in the culturally rich Prayagraj, Uttar Pradesh, India. I completed my schooling from Bishop Johnson School in 2020.
+          </p><br>
+          <p>
+            The allure of Machine Learning and Data Science captured my imagination when I wondered how online platforms intuitively understood my interests and showed me things in the form of advertisements. This curiosity turned into a fiery passion, driving me to uncover the mysteries of Data Science. I have a keen interest in the field of Machine Learning and Data Science, and I'm presently learning and working on the skills required to expertise in the same.
+          </p><br>
+          <p>
+            Beyond academics, I love to play outdoor games like cricket and football, as well as computer games. I'm quite fond of mathematics.
+          </p><br>
+
+          <h2 class='sub-title-keyword'>Few keyword which defines me are:- </h2><br>
+          <p class="keyword">1.Curious </p><br>
+          <p class="keyword">2.Passionate</p><br>
+          <p class="keyword">3.Data-driven </p><br>
+          <p class="keyword">4.Optimistic</p> <br>
+          <p class="keyword">5.Problem solver</p><br>
+
+          <div class="tab-titles">
+            <p class='tab-links active-link' onclick="opentab('skills')">Skills</p>
+            <p class='tab-links' onclick="opentab('experience')">Experience</p>
+            <p class='tab-links' onclick="opentab('eduction')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li> <span>Data Science:</span><br>Creating Model for predicting for greater cause </li>
+              <li> <span>Data Analytic: </span><br>Cleaning the data help others to get proper insight from data and make use of it </li>
+              <li> <span>Probelm solving </span><br> </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Published Researcher:</span><br> Published a Research paper on” Data compression algorithm combining Huffman coding, LZW algorithm, and
+                dynamic programming. Achieved superior image compression ratios and optimized encoding/decoding efficiency.
+                Results published in a reputable journal.</li>
+              <li> <span>Bussiness Analytic:</span><br>Executed a successful turnaround strategy for a technology-oriented business.
+                  Conducted a data-driven feasibility study for a potential business setup.
+                  Proficiently implemented data visualization using Power BI.                  </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id ='eduction'>
+            <ul>
+              <li>
+                   <strong> <span> Vellore Institute of Technology</span></strong><br>
+                   - Duration: September 2021 – Present<br>
+                   - Course: BTech in Computer Science Engineering with Specialization in Artificial Intelligence and Robotics<br>
+                   - CGPA: 9.15/10<br>
+                   - Graduation Date: 2025
+                 </li>
+                 <li>
+                   <strong> <span>Elementary Education</span> </strong><br>
+                   - School: Bishop Johnson School and College<br>
+                   - 10th Grade: 87%<br>
+                   - 12th Grade: 86%
+                 </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- <div id="performace">
+    <div class="container">
+      <div class="tab-titles">
+        <p class='tab-links'>Skills</p>
+        <p class='tab-links'>Experience</p>
+        <p class='tab-links'>Education</p>
+
+      </div>
+
+
+
+    </div>
+
+  </div> -->
+  <!-- -------------------------Work----------------------- -->
+  <div id="serivces">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Data Science</h2>
+          <p>Data science leverages data to inform decisions and solve complex problems through statistical and machine learning techniques, driving innovation.</p>
+          <a href="#">Learn More</a>
+
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Data analytics</h2>
+          <p>Data analytics involves using data to inform decisions and solve problems through statistical and analytical methods, contributing to informed decision-making and innovation.</p>
+          <a href="#">Learn More</a>
+
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Ml end to end Project </h2>
+          <p>An ML end-to-end service offers a complete solution for the entire machine learning process, from data preparation to model deployment and monitoring.</p>
+          <a href="#">Learn More</a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- ---------------------------------My blog----------------------- -->
+  <div id="blog">
+    <div class="container">
+      <h1 class="sub-title">Blog</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/b.png" alt="">
+          <div class="layer">
+            <h3>Feature Engineering</h3>
+            <p>Feature engineering is the unsung hero of the data science world, quietly shaping the raw data into a form that machine learning models can understand and harness.</p>
+            <a href="https://medium.com/@kaustubh651/feature-engineering-the-data-alchemy-transforming-machine-learning-89b1915de9ad"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/b1.png" alt="">
+          <div class="layer">
+            <h3>PCA</h3>
+            <p>PCA (Principal Component Analysis) reduces data dimensions by finding key patterns, simplifying analysis and visualization </p>
+            <a href="https://medium.com/@kaustubh651/dimensionality-delight-how-pca-supercharges-data-science-and-breaks-the-curse-of-dimensionality-15610a5e7f43"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <!-- <div class="work">
+          <img src="images/work-3.png" alt="">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>The App connect you yo the talented people aroung the world.
+            Downlaod it from play store. </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div> -->
+
+      </div>
+      <a href="https://medium.com/@kaustubh651" class="btn">See more</a>
+
+    </div>
+  </div>
+<!-- ---------------------------------Project----------------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">Project</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png" alt="">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The App connect you yo the talented people aroung the world.
+          Downlaod it from play store. </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png" alt="">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>The App connect you yo the talented people aroung the world.
+          Downlaod it from play store. </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png" alt="">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The App connect you yo the talented people aroung the world.
+          Downlaod it from play store. </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+
+  </div>
+
+
+</div>
+
+
+<!-- ---------------------contact------------------ -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>kaustubh.dwi651@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>Contact Number: 6386265146</p>
+        <div class="social-icon">
+          <a href="https://github.com/Kaustubh651"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/kaustubh-dwivedi-3b541b28a"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/kaustubh_651/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/Kaustub93622852"><i class="fa-brands fa-square-x-twitter"></i></a>
+
+        </div>
+        <a href="images/Resume-Kaustubh-Dwivedi.pdf" download class="btn btn2">Download CV</a>
+
+      </div>
+      <div class="contact-right">
+        <form name='submit-to-google-sheet'>
+          <input type="text" name="Name" placeholder="Your name" required>
+          <input type="email" name="Email" placeholder="Your email" required>
+          <textarea name="Message" rows="6" placeholder="You Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+
+        </form>
+        <span id='msg'></span>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; 2023 Kaustubh. All Rights Reserved.</p>
+
+  </div>
+
+</div>
+
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname) {
+      for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabname).classList.add('active-tab');
+
+
+
+    }
+  </script>
+  <script>
+  var sidemenu = document.getElementById('sidemenu');
+  function openmenu() {
+    sidemenu.style.right="0";
+  }
+  function closemenu() {
+    sidemenu.style.right="-200px";
+
+  }
+  </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwGp6h9q4TnmKxW3FCj9IPver1BGH7L_zn4SYhC4UOEYpEhir7vmzmYk7UFcTFrmpUh/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Messgae sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
